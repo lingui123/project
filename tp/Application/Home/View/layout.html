@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{$title}</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="__PUBLIC__/Home/css/style.css"/>
+	<script src="__PUBLIC__/Common/js/jquery.min.js"></script>
+</head>
+<body>
+<div class="top">
+	<div class="top-nav">
+	<ul><li>收藏本站</li><li>关注本站</li></ul>
+	<ul class="right">
+		<present name="userinfo.id">
+		<li>{$userinfo.name}，欢迎来到传智商城！[<a href="{:U('User/logout')}">退出</a>]<li>
+		<else/>
+		<li>您好，欢迎来到传智商城！[<a href="{:U('User/login')}">登录</a>][<a href="{:U('User/register')}">免费注册</a>]</li>
+		</present>
+		<li class="line">|</li><li><a href="{:U('Order/index')}">我的订单</a></li>
+		<li class="line">|</li><li><a href="{:U('User/index')}">会员中心</a></li>
+		<li class="line">|</li><li><a href="{:U('Cart/index')}">我的购物车</a></li>
+		<li class="line">|</li><li>联系客服</li>
+	</ul>
+	</div>
+</div>
+<div class="box">
+	<div class="header">
+		<a class="left" href="__APP__/"><div class="logo"></div></a>
+		<div class="search left">
+			<input type="text" class="left" />
+			<input class="search-btn" type="button" value="搜索" />
+			<p class="search-hot">热门搜索：PHP培训　专业教材　智能手机　平板电脑</p>
+		</div>
+		<div class="info left">
+			<input type="button" value="会员中心" onclick="location.href='{:U('User/index')}'" />
+			<input type="button" value="去购物车结算" onclick="location.href='{:U('Cart/index')}'" />
+		</div>
+	</div>
+	<div class="nav">
+		<ul><li id="Index_find"><a class="category" href="{:U('Index/find')}">全部商品分类</a></li><li id="Index_index"><a href="__APP__/">首页</a></li>
+			<li><a href="#">特色购物</a></li><li><a href="#">优惠促销</a></li><li><a href="#">限时秒杀</a></li>
+			<li><a href="#">品牌专区</a></li><li><a href="#">服务中心</a></li>
+		</ul>
+	</div>
+{__CONTENT__}
+	<div class="service">
+		<ul><li>购物指南</li><li>配送方式</li><li>支付方式</li>
+			<li>售后服务</li><li>特色服务</li><li>网络服务</li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>

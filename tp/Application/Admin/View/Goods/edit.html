@@ -1,0 +1,53 @@
+<div class="title">修改商品</div>
+<div class="top-button">
+	修改商品分类：<select id="category">
+		<option value="0">未分类</option>
+		<foreach name="category" item="v">
+			<option value="{$v.id}" <eq name="v.id" value="$cid">selected</eq>>{:str_repeat('— ',$v['level'])}{$v.name}</option>
+		</foreach>
+	</select>
+	<a href="{:U('Goods/index',array('cid'=>$cid,'p'=>$p))}" class="light">返回商品列表</a>
+</div>
+<present name="success"><div class="mssage">修改成功。</div></present>
+<div class="list auto">
+	<form method="post" enctype="multipart/form-data">
+	<input type="hidden" name="id" value="{$goods.id}">
+	<table class="t2 t4">
+		<tr><th>商品名称：</th><td><input type="text" name="name" value="{$goods.name}" class="big"></td></tr>
+		<tr><th>商品编号：</th><td><input type="text" name="sn" value="{$goods.sn}" ></td></tr>
+		<tr><th>商品价格：</th><td><input type="text" name="price" value="{$goods.price}" class="small"></td></tr>
+		<tr><th>商品库存：</th><td><input type="text" name="stock" value="{$goods.stock}" class="small"></td></tr>
+		<tr><th>是否上架：</th><td><select name="on_sale">
+			<option value='1' <eq name="goods.on_sale" value='1'>selected</eq>>是</option>
+				<option value='2' <eq name="goods.on_sale" value='2'>selected</eq>>否</option>
+		</select></td></tr>
+		<tr><th>首页推荐：</th><td><select name="recommend">
+			<option value='1'<eq name="goods.recommend" value='1'>selected</eq>>是</option>
+			<option value='2'<eq name="goods.recommend" value='2'>selected</eq>>否</option>
+		</select></td></tr>
+		<tr><th>修改图片：</th><td><input type="file" name="thumb" /></td></tr>
+		<tr><th>当前图片：</th><td>
+			<empty name="goods.thumb">
+				<img src="__PUBLIC__/Common/img/preview.jpg">
+			<else/>
+				<img src="__PUBLIC__/Uploads/small/{$goods.thumb}">
+			</empty>
+		</td></tr>
+	</table>
+	<div class="editor">
+		<include file="Goods/_editor" />
+		<script type="text/plain" id="myEditor" name="desc">{$goods.desc}</script>
+	</div>
+	<div class="btn">
+		<input type="submit" value="保存修改">
+		<input type="submit" value="修改并返回" name="return">
+	</div>
+	</form>
+</div>
+<script>
+	//下拉菜单跳转
+	$("#category").change(function(){
+		var url = "{:U('Goods/edit',array('id'=>$id,'cid'=>'_ID_','p'=>$p))}";
+		location.href = url.replace("_ID_",$(this).val());
+	});
+</script>

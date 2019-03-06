@@ -1,0 +1,3 @@
+[ 2019-01-09T10:33:20+08:00 ] 127.0.0.1 /
+ERR: SQLSTATE[HY000] [1049] Unknown database 'itcast_shop'
+

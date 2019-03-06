@@ -1,0 +1,52 @@
+[ 2018-12-28T09:47:25+08:00 ] 127.0.0.1 /Order/buy.html
+ERR: Think\Controller:_input方法不存在！
+
+[ 2018-12-28T09:48:51+08:00 ] 127.0.0.1 /Order/buy.html
+ERR: Think\Controller:_input方法不存在！
+
+[ 2018-12-28T10:00:23+08:00 ] 127.0.0.1 /User/addrEdit.html
+ERR: Think\Model:gerError方法不存在！
+
+[ 2018-12-28T10:01:30+08:00 ] 127.0.0.1 /User/addrEdit.html
+ERR: Think\Model:gerError方法不存在！
+
+[ 2018-12-28T14:55:21+08:00 ] 127.0.0.1 /Order/buy.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND `user_id` = 1' at line 1
+ [ SQL语句 ] : DELETE FROM `shop_shopcart` WHERE `goods_id` IN () AND `user_id` = 1
+
+[ 2018-12-28T15:21:06+08:00 ] 127.0.0.1 /Order/buy.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND `user_id` = 1' at line 1
+ [ SQL语句 ] : DELETE FROM `shop_shopcart` WHERE `goods_id` IN () AND `user_id` = 1
+
+[ 2018-12-28T15:22:16+08:00 ] 127.0.0.1 /Order/buy.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND `user_id` = 1' at line 1
+ [ SQL语句 ] : DELETE FROM `shop_shopcart` WHERE `goods_id` IN () AND `user_id` = 1
+
+[ 2018-12-28T15:24:19+08:00 ] 127.0.0.1 /Order/buy.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND `user_id` = 1' at line 1
+ [ SQL语句 ] : DELETE FROM `shop_shopcart` WHERE `goods_id` IN () AND `user_id` = 1
+
+[ 2018-12-28T15:25:47+08:00 ] 127.0.0.1 /Order/buy.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND `user_id` = 1' at line 1
+ [ SQL语句 ] : DELETE FROM `shop_shopcart` WHERE `goods_id` IN () AND `user_id` = 1
+
+[ 2018-12-28T15:27:24+08:00 ] 127.0.0.1 /Order/buy.html
+ERR: Think\Controller:_input方法不存在！
+
+[ 2018-12-28T15:27:27+08:00 ] 127.0.0.1 /Order/buy.html
+ERR: Think\Controller:_input方法不存在！
+
+[ 2018-12-28T15:34:26+08:00 ] 127.0.0.1 /Order/buy.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND `user_id` = 1' at line 1
+ [ SQL语句 ] : DELETE FROM `shop_shopcart` WHERE `goods_id` IN () AND `user_id` = 1
+
+[ 2018-12-28T17:10:58+08:00 ] 127.0.0.1 /Order/buy.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND `user_id` = 1' at line 1
+ [ SQL语句 ] : DELETE FROM `shop_shopcart` WHERE `goods_id` IN () AND `user_id` = 1
+
+[ 2018-12-28T17:58:28+08:00 ] 127.0.0.1 /Index/find/cid/8.html
+ERR: Think\Model:_customPage方法不存在！
+
+[ 2018-12-28T17:58:29+08:00 ] 127.0.0.1 /Index/find/cid/8.html
+ERR: Think\Model:_customPage方法不存在！
+

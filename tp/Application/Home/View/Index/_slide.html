@@ -1,0 +1,20 @@
+<div class="slide">
+<volist name="category" id="v1" offset="0" length="8"><div class="cate">
+	<div class="subcate left"><a href="{:U('Index/find',array('cid'=>$v1['id']))}">{$v1.name}</a></div>
+	<div class="subitem" style="display:none;">
+		<present name="v1.child"><foreach name="v1.child" item="v2">
+		<dl><dt><a href="{:U('Index/find',array('cid'=>$v2['id']))}">{$v2.name}</a></dt><dd><present name="v2.child">
+		<foreach name="v2.child" item="v3"><a href="{:U('Index/find',array('cid'=>$v3['id']))}">{$v3.name}</a></foreach>
+		</present></dd></dl></foreach></present>
+	</div>
+</div></volist><div class="clear"></div>
+</div>
+<script>
+	$(".cate").hover(function(){
+		$(this).find(".subitem").show();
+		$(this).children(".subcate").children("a").addClass("on");
+	},function(){
+		$(this).find(".subitem").hide();
+		$(this).children(".subcate").children("a").removeClass("on");
+	});
+</script>

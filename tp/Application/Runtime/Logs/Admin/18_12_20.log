@@ -1,0 +1,90 @@
+[ 2018-12-20T11:10:50+08:00 ] 127.0.0.1 /Admin/Category
+ERR: Think\Controller:assgin方法不存在！
+
+[ 2018-12-20T11:10:52+08:00 ] 127.0.0.1 /Admin/Category
+ERR: Think\Controller:assgin方法不存在！
+
+[ 2018-12-20T11:10:53+08:00 ] 127.0.0.1 /Admin/Category
+ERR: Think\Controller:assgin方法不存在！
+
+[ 2018-12-20T11:25:03+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 无法加载控制器:Goods
+
+[ 2018-12-20T11:38:12+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 无法加载控制器:Goods
+
+[ 2018-12-20T11:44:04+08:00 ] 127.0.0.1 /Admin/Recycle/index.html
+ERR: 无法加载控制器:Recycle
+
+[ 2018-12-20T15:03:03+08:00 ] 127.0.0.1 /Admin/Category/del.html
+ERR: 非法操作:del
+
+[ 2018-12-20T17:31:05+08:00 ] 127.0.0.1 /Admin/Category/edit/id/17.html
+ERR: Think\Model:getSublds方法不存在！
+
+[ 2018-12-20T17:32:12+08:00 ] 127.0.0.1 /Admin/Category/edit/id/17.html
+ERR: Think\Model:getSubIds方法不存在！
+
+[ 2018-12-20T17:32:15+08:00 ] 127.0.0.1 /Admin/Category/edit/id/17.html
+ERR: Think\Model:getSubIds方法不存在！
+
+[ 2018-12-20T17:32:26+08:00 ] 127.0.0.1 /Admin/Category/edit/id/17.html
+ERR: Think\Model:getSubIds方法不存在！
+
+[ 2018-12-20T17:35:07+08:00 ] 127.0.0.1 /Admin/Category/edit/id/47.html
+ERR: Think\Model:getSubIds方法不存在！
+
+[ 2018-12-20T17:36:10+08:00 ] 127.0.0.1 /Admin/Category/edit/id/47.html
+ERR: Think\Model:getSubIds方法不存在！
+
+[ 2018-12-20T17:36:14+08:00 ] 127.0.0.1 /Admin/Category/edit/id/47.html
+ERR: Think\Model:getSubIds方法不存在！
+
+[ 2018-12-20T17:36:17+08:00 ] 127.0.0.1 /Admin/Category/edit/id/47.html
+ERR: Think\Model:getSubIds方法不存在！
+
+[ 2018-12-20T17:37:07+08:00 ] 127.0.0.1 /Admin/Category/edit/id/47.html
+ERR: Think\Model:getSubIds方法不存在！
+
+[ 2018-12-20T17:37:46+08:00 ] 127.0.0.1 /Admin/Category/edit/id/47.html
+ERR: Think\Model:getSubIds方法不存在！
+
+[ 2018-12-20T17:38:15+08:00 ] 127.0.0.1 /Admin/Category/edit/id/47.html
+ERR: Think\Model:getSubIds方法不存在！
+
+[ 2018-12-20T17:41:12+08:00 ] 127.0.0.1 /Admin/Category/edit/id/47.html
+ERR: Think\Model:getSubIds方法不存在！
+
+[ 2018-12-20T17:41:39+08:00 ] 127.0.0.1 /Admin/Category/edit/id/47.html
+ERR: Think\Model:getSubIds方法不存在！
+
+[ 2018-12-20T17:41:53+08:00 ] 127.0.0.1 /Admin/Category/edit/id/47.html
+ERR: Think\Model:getSubIds方法不存在！
+
+[ 2018-12-20T17:41:54+08:00 ] 127.0.0.1 /Admin/Category/edit/id/47.html
+ERR: Think\Model:getSubIds方法不存在！
+
+[ 2018-12-20T17:43:25+08:00 ] 127.0.0.1 /Admin/Category/edit/id/47.html
+ERR: Think\Model:getSubIds方法不存在！
+
+[ 2018-12-20T17:44:49+08:00 ] 127.0.0.1 /Admin/Category/edit/id/46.html
+ERR: Think\Model:getSubIds方法不存在！
+
+[ 2018-12-20T17:44:52+08:00 ] 127.0.0.1 /Admin/Category/edit/id/46.html
+ERR: Think\Model:getSubIds方法不存在！
+
+[ 2018-12-20T17:45:13+08:00 ] 127.0.0.1 /Admin/Category/edit/id/47.html
+ERR: Think\Model:getSubIds方法不存在！
+
+[ 2018-12-20T17:45:54+08:00 ] 127.0.0.1 /Admin/Category/edit/id/47.html
+ERR: Think\Model:getSubIds方法不存在！
+
+[ 2018-12-20T17:46:06+08:00 ] 127.0.0.1 /Admin/Category/edit/id/47.html
+ERR: Think\Model:getSubIds方法不存在！
+
+[ 2018-12-20T17:47:06+08:00 ] 127.0.0.1 /Admin/Category/edit/id/47.html
+ERR: Think\Model:getSubIds方法不存在！
+
+[ 2018-12-20T17:47:09+08:00 ] 127.0.0.1 /Admin/Category/edit/id/47.html
+ERR: Think\Model:getSubIds方法不存在！
+

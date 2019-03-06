@@ -1,0 +1,62 @@
+<div class="find">
+<div class="find-left left"><div class="title">相关商品推荐</div>
+	<foreach name="goods.recommend" item="v">	<ul class="item left">
+		<li><a href="{:U('Index/goods',array('id'=>$v['id']))}" target="_blank"><empty name="v.thumb"><img src="__PUBLIC__/Common/img/preview.jpg"><else/><img src="__PUBLIC__/Uploads/small/{$v.thumb}"></empty></a></li>
+		<li class="goods"><a href="{:U('Index/goods',array('id'=>$v['id']))}" target="_blank">{$v.name}</a></li>
+		<li class="price">￥{$v.price}</li>
+	</ul></foreach>
+</div>
+<div class="find-right left">
+	<ul class="filter">
+		<li class="filter-title">商品列表</li>
+		<notempty name="category.parent">
+			<volist name="category.parent" id="v">
+				<li><p>分类{$i}：</p>
+				<foreach name="v" item="vv"><a href="{:mkFilterURL('cid',$vv['id'])}" class="cid-{$vv.id}" >{$vv.name}</a></foreach></li>
+			</volist>
+		</notempty>
+		<li><p>价格：</p><a href="{:mkFilterURL('price')}" class="price-0">全部</a>
+			<foreach name="goods.price" item="v"><a href="{:mkFilterURL('price',$v)}" class="price-{$v}">{$v}</a></foreach>
+		</li>
+		<li><p>排序：</p><a
+			href="{:mkFilterURL('order')}" class="order-0">最新上架</a><a 
+			href="{:mkFilterURL('order','price-asc')}" class="order-price-asc">价格升序</a><a
+			href="{:mkFilterURL('order','price-desc')}" class="order-price-desc">价格降序</a>
+		</li>
+	</ul>
+	<div class="find-item">
+		<empty name="goods.data"><div class="empty-tip">没有找到您需要的商品。</div>
+		<else/>
+		<foreach name="goods.data" item="v">
+		<ul class="item left">
+			<li><a href="{:U('Index/goods',array('id'=>$v['id']))}" target="_blank"><empty name="v.thumb"><img src="__PUBLIC__/Common/img/preview.jpg"><else/><img src="__PUBLIC__/Uploads/small/{$v.thumb}"></empty></a></li>
+			<li class="goods"><a href="{:U('Index/goods',array('id'=>$v['id']))}" target="_blank">{$v.name}</a></li>
+			<li class="price">￥{$v.price}</li>
+		</ul>
+		</foreach>
+		<div class="clear"></div>
+		<div class="pagelist">{$goods.pagelist}</div>
+		</empty>
+	</div>
+</div>
+</div>
+<script>
+//导航条选中效果
+$("#Index_find").addClass("category-curr");
+//筛选列表，分类的当前选中效果
+<foreach name="category.pids" item="v">
+	$(".cid-{$v}").addClass("curr");
+</foreach>
+//商品价格的选中效果
+<present name="Think.get.price">
+	$(".price-{$Think.get.price}").addClass("curr");
+<else/>
+	$(".price-0").addClass("curr");
+</present>
+//商品排序的选中效果
+<present name="Think.get.order">
+	$(".order-{$Think.get.order}").addClass("curr");
+<else/>
+	$(".order-0").addClass("curr");
+</present>
+</script>

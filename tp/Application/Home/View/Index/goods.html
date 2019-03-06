@@ -1,0 +1,73 @@
+<div class="goodsinfo">
+	<div class="now_cat">当前位置：<foreach name="path" item="v">&nbsp;<a 
+		href="{:U('Index/find',array('cid'=>$v['id']))}">{$v.name}</a>&nbsp;&gt;</foreach>&nbsp;{$goods.name}</div>
+	<div class="pic left"><empty name="goods.thumb"><img src="__PUBLIC__/Common/img/preview2.jpg" /><else/>
+		<img src="__PUBLIC__/Uploads/big/{$goods.thumb}" /></empty></div>
+	<div class="info left"><h1>{$goods.name}</h1><table>
+		<tr><th>售 价：</th><td><span class="price">￥{$goods.price}</span></td></tr>
+		<tr><th>商品编号：</th><td>{$goods.sn}</td></tr>
+		<tr><th>累计销量：</th><td>1000</td></tr>
+		<tr><th>评 价：</th><td>1000</td></tr>
+		<tr><th>配送至：</th><td>北京（免运费）</td></tr>
+		<tr><th>购买数量：</th><td>
+			<input type="button" value="-" class="cnt-btn" />
+			<input type="text" value="1" id="num" class="num-btn" />
+			<input type="button" value="+" class="cnt-btn" />（库存：{$goods.stock}）</td></tr>
+		<tr><td colspan="2" class="button"><a href="#" id="buy">立即购买</a><a href="#" id="addCart">加入购物车</a></td></tr>
+		</table></div>
+		<form method="post" action="{:U('Order/buy')}" id="form_buy">
+			<input type="hidden" name="buy[0][id]" value="{$goods.id}">
+			<input type="hidden" name="buy[0][num]" value="" id="form_num">
+		</form>
+		<!--二维码-->
+		<!-- <div class="qr">
+			<img src="__PUBLIC__/Uploads/qr/{:genIdPath($goods['id'])}.png">
+			<span>扫一扫，手机购物</span>
+		</div> -->
+		<div class="clear"></div>
+	<div class="goods-slide left"><div class="title">相关商品推荐</div>
+		<foreach name="recommend" item="v">
+		<ul class="item left">
+			<li><a href="{:U('Index/goods',array('id'=>$v['id']))}" target="_blank"><empty name="v.thumb"><img src="__PUBLIC__/Common/img/preview.jpg"><else/><img src="__PUBLIC__/Uploads/small/{$v.thumb}"></empty></a></li>
+			<li class="goods"><a href="{:U('Index/goods',array('id'=>$v['id']))}" target="_blank">{$v.name}</a></li>
+			<li class="price">￥{$v.price}</li>
+		</ul>
+		</foreach>
+	</div>
+	<div class="desc left"><div class="title">商品详情</div><div class="content">{$goods.desc}</div></div>
+	<div class="clear"></div>
+</div>
+<script>
+//导航条选中效果
+$("#Index_find").addClass("category-curr");
+//购买数量加减
+$(".cnt-btn").click(function(){
+	var num = parseInt($("#num").val());
+	if ($(this).val() === '-') {
+		if ( num=== 1) return;
+		$("#num").val(num-1);
+	}else if ($(this).val() === '+') {
+		if (num === {$goods.stock}) return;
+		$("#num").val(num+1);
+	}
+});
+//自动纠正购买数量
+$("#num").keyup(function(){
+	var num = parseInt($(this).val());
+	if(num<1){ 
+		$(this).val(1);
+	}else if(num > {$goods.stock}){
+		$(this).val({$goods.stock});
+	}
+});
+//添加购物车
+$("#addCart").click(function(){
+	var url = "{:U('Cart/add',array('id'=>$goods['id'],'num'=>'_NUM_'))}";
+	window.location.href = url.replace("_NUM_",$("#num").val());
+});
+//点击购买按钮时，构造表单并提交
+$("#buy").click(function(){
+	$("#form_num").val($("#num").val());
+	$("#form_buy").submit();
+});
+</script>

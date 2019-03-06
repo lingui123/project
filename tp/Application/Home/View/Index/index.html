@@ -1,0 +1,19 @@
+<!--分类左栏-->
+<include file="Index/_slide" />
+<!--热点图-->
+<include file="Index/_hot" />
+<!--新闻列表-->
+<div class="news right">最新动态</div>
+<div class="clear"></div>
+<!--推荐商品-->
+<div class="best">
+	<div class="best-title">精品推荐</div>
+	<foreach name="best" item="v">
+	<ul class="item left">
+		<li><a href="{:U('Index/goods',array('id'=>$v['id']))}" target="_blank"><empty name="v.thumb"><img src="__PUBLIC__/Common/img/preview.jpg"><else/><img src="__PUBLIC__/Uploads/small/{$v.thumb}"></empty></a></li>
+		<li class="goods"><a href="{:U('Index/goods',array('id'=>$v['id']))}" target="_blank">{$v.name}</a></li>
+		<li class="price">￥{$v.price}</li>
+	</ul>
+	</foreach>
+</div>
+<script> $("#Index_index").addClass("curr"); </script>

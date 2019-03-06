@@ -1,0 +1,11 @@
+<div class="title">会员列表</div>
+<div class="list full">
+	<table>
+		<tr><th>会员ID</th><th>会员昵称</th><th>联系电话</th><th>邮箱</th><th>操作</th></tr>
+		<foreach name="list" item="v">
+		<tr><td>{$v.id}</td><td>{$v.username}</td><td>{$v.phone}</td>
+			<td>{$v.email}</td><td><a href="#">查看详情</a></td></tr>
+		</foreach>
+	</table>
+</div>
+<div class="pagelist">{$page}</div>

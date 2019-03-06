@@ -1,0 +1,221 @@
+[ 2018-12-21T10:07:44+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 无法加载控制器:Goods
+
+[ 2018-12-21T10:16:46+08:00 ] 127.0.0.1 /Admin/User/index.html
+ERR: 无法加载控制器:User
+
+[ 2018-12-21T10:16:49+08:00 ] 127.0.0.1 /Admin/Goods/add.html
+ERR: 无法加载控制器:Goods
+
+[ 2018-12-21T10:16:50+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 无法加载控制器:Goods
+
+[ 2018-12-21T10:16:52+08:00 ] 127.0.0.1 /Admin/Recycle/index.html
+ERR: 无法加载控制器:Recycle
+
+[ 2018-12-21T10:16:54+08:00 ] 127.0.0.1 /Admin/User/index.html
+ERR: 无法加载控制器:User
+
+[ 2018-12-21T14:24:43+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' AND g.' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g. category_id,g. id,g.name,g. on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' AND g.category_id = 0 ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:33:52+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' AND g.' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' AND g.category_id = 0 ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:33:53+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' AND g.' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' AND g.category_id = 0 ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:33:54+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' AND g.' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' AND g.category_id = 0 ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:33:54+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' AND g.' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' AND g.category_id = 0 ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:33:54+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' AND g.' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' AND g.category_id = 0 ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:34:35+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:34:36+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:34:36+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:34:37+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:34:37+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:34:38+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:34:38+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:34:38+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:34:39+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:35:26+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:35:26+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:35:26+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:35:27+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:35:27+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:35:27+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:35:28+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:35:29+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:35:31+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:36:39+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:36:39+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:36:39+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:36:39+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:36:40+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:36:40+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:36:41+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:36:41+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:36:42+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:36:42+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:37:17+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:37:18+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:37:18+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:37:18+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:37:18+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:37:19+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:37:20+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:37:20+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:37:20+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:37:20+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:37:21+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:37:21+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T14:37:21+08:00 ] 127.0.0.1 /Admin/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER ' at line 1
+ [ SQL语句 ] : SELECT c.name as category_name,g.category_id,g.id,g.name,g.on_sale,g.stock,g.recommend FROM shop_goods g LFFT JOIN shop_categoryAS c ON c.id=g.category_id  WHERE g.recycle = 'no' ORDER BY g.id desc LIMIT 0,5  
+
+[ 2018-12-21T15:30:22+08:00 ] 127.0.0.1 /Admin/Recycle/index.html
+ERR: 无法加载控制器:Recycle
+
+[ 2018-12-21T15:30:23+08:00 ] 127.0.0.1 /Admin/User/index.html
+ERR: 无法加载控制器:User
+
+[ 2018-12-21T17:47:21+08:00 ] 127.0.0.1 /Admin/Recycle/index.html
+ERR: 无法加载控制器:Recycle
+
+[ 2018-12-21T17:47:23+08:00 ] 127.0.0.1 /Admin/Recycle/index.html
+ERR: 无法加载控制器:Recycle
+
+[ 2018-12-21T18:10:56+08:00 ] 127.0.0.1 /Admin/Recycle/index.html
+ERR: 无法加载控制器:Recycle
+
